@@ -6,3 +6,6 @@ import cardComponent from './components/cardComponent.vue'
   <cardComponent />
 </template>
 
+<style scoped>
+
+</style>

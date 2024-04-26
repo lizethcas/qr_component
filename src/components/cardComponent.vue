@@ -47,26 +47,24 @@ const infoCard: INFO = {
     /* Añade contenido a los pseudo-elementos */
     position: absolute;
     /* Establece posición absoluta para posicionarlos correctamente */
-    width: 150px;
+    width: 270px;
     /* Ancho de los semicírculos */
-    height: 150px;
+    height: 270px;
     /* Altura de los semicírculos */
-    background-color: #f2f2f231;
+    background-color: #f2f2f213;
     /* Color de fondo de los semicírculos */
     border-radius: 50%;
     /* Hace que los elementos sean semicírculos */
 }
 
 .qr_container::after {
-    bottom: -50px;
-    /* Posiciona el semicírculo inferior derecho */
-    right: -50px;
+    bottom: -158px;
+    right: -115px;
 }
 
 .qr_container::before {
-    top: -50px;
-    /* Posiciona el semicírculo superior izquierdo */
-    left: -50px;
+    top: -147px;
+    left: -113px;
 }
 
 .qr {
