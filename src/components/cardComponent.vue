@@ -1,13 +1,17 @@
 <template>
-    <article class="card">
-        <div class="qr_container">
-            <img src="../assets/qr.png" alt="QR" class="qr">
-        </div>
-        <div class="container_description">
-            <h2 class="title">{{ infoCard.title }}</h2>
-            <p class="description">{{ infoCard.description }}</p>
-        </div>
-    </article>
+    <section>
+        <main>
+            <article class="card">
+                <div class="qr_container">
+                    <img src="../assets/qr.png" alt="QR" class="qr">
+                </div>
+                <div class="container_description">
+                    <h2 class="title">{{ infoCard.title }}</h2>
+                    <p class="description">{{ infoCard.description }}</p>
+                </div>
+            </article>
+        </main>
+    </section>
 </template>
 
 <script setup lang="ts">
@@ -81,7 +85,7 @@ const infoCard: INFO = {
 }
 
 .description,
-.title{
+.title {
     font-family: "Outfit", sans-serif;
 }
 
